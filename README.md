@@ -62,27 +62,11 @@ and
 ssh -i ~/.ssh/server_key_2 ubuntu@SERVER_IP
 ```
 
-### 5. Configured SSH Alias
-
-Created:
-
-```bash
-~/.ssh/config
-```
-
-Example:
-
-```text
-Host nginx-diksha
- HostName SERVER_IP
- User ubuntu
- IdentityFile ~/.ssh/server_key_1
-```
 
 Connected using:
 
 ```bash
-ssh myserver
+ssh nginx-diksha
 ```
 
 ## Project URL
